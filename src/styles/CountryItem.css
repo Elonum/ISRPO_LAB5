@@ -1,0 +1,39 @@
+.country-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    background-color: #f9f9f9;
+}
+
+.country-item:hover {
+    transform: scale(1.05);
+}
+
+.country-item img {
+    width: 120px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.country-item__name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.country-item__button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.country-item__button:hover {
+    background-color: #0056b3;
+}

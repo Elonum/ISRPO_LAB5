@@ -1,0 +1,58 @@
+.country-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff; /* Белый текст для тёмного фона */
+}
+
+.back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px; /* Перемещаем кнопку вниз */
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+.country-detail__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.country-detail__flag {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.country-detail__info {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .country-detail {
+        padding: 10px;
+    }
+
+    .country-detail__title {
+        font-size: 24px;
+    }
+
+    .country-detail__flag {
+        width: 150px;
+    }
+
+    .country-detail__info {
+        font-size: 16px;
+    }
+}
